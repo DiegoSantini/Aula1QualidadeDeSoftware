@@ -8,8 +8,8 @@ import com.mysql.jdbc.exceptions.jdbc4.CommunicationsException;
 public class FabricaDeConexoes {
 	String url = "jdbc:mysql://localhost:3306/biblioteca";
 	String driver = "com.mysql.jdbc.Driver";
-	String usuario = "root";
-	String senha = "";
+	String usuario = "Alunos";
+	String senha = "alunos";
 
 	public FabricaDeConexoes(ConfiguraDB configura) {
 		this.url = configura.getUrl();
